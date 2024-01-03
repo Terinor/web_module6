@@ -5,7 +5,7 @@ def create_sql_files(start, end):
             file.write("-- SQL query " + str(i) + "\n")
 
 
-start_number = 1
-end_number = 10
+start_number = 11
+end_number = 12
 
 create_sql_files(start_number, end_number)
